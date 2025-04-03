@@ -1,3 +1,26 @@
 #jenkins integration with github project repository 
 #relevant code for the new features 
 #date@01-apr-2025
+
+
+
+
+#jenkins ci-job @every 5 minutes demo
+import java.util.Scanner;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+
+        // Creates a reader instance which takes
+        // input from standard input - keyboard
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        // nextInt() reads the next integer from the keyboard
+        int number = reader.nextInt();
+
+        // println() prints the following line to the output screen
+        System.out.println("You entered: " + number);
+    }
+}
